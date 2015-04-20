@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <title>Login</title>
+    <link rel="stylesheet" href="css/header.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+    <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+<body>
+<div id="main_container">
+  <header>
+    <div class="logo">
+      <img src="img/logo.jpg" alt="Puls4" />
+    </div>
+    <div class="titular">
+      <h1 class="titulo">Sistema de Información del Programa Respuestas</h1>
+      <div>
+        <a class="filtro" href="#">Distrito Federal 1</a>
+      </div>
+    </div>  
+  </header><!-- /header -->
+    <div class="container">
+      <div id="login">
+        <form action="javascript:void(0);" method="get">
+          <fieldset class="clearfix">
+            <p><span class="fontawesome-user"></span><input type="text" value="Username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+            <p><span class="fontawesome-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+            <p><input type="submit" value="Acceder"></p>
+          </fieldset>
+        </form>
+      </div> <!-- end login -->
+    </div>
+</div>
+</body>
+</html>

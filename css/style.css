@@ -1,0 +1,137 @@
+/* CSS Document */
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+/* ---------- FONTAWESOME ---------- */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c3338;
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* ---------- LOGIN ---------- */
+#login {
+  width: 280px;
+}
+
+#login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  color: #606468;
+  display: block;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+#login form input {
+  height: 50px;
+}
+
+#login form input[type="text"], input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #606468;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 230px;
+}
+
+#login form input[type="submit"] {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  width: 280px;
+}
+
+#login form input[type="submit"]:hover {
+  background-color: #d44179;
+}
+
+#login > p {
+  text-align: center;
+}
+
+#login > p span {
+  padding-left: 5px;
+}
+
+header{background:#444;box-shadow:0 5px 0 rgba(0,0,0,0.2);color:#fff;overflow:hidden;padding:.5em;position:relative;z-index:2;}
+header .logo{border-right:1px solid #22bce0;float:left;width:210px;}
+header .logo img{width:200px}
+header .titular{margin:0 80px 0 220px;}
+header .titular .filtro{color:#22bce0;font-size:14px;font-style:italic;font-weight:bold;text-decoration:none}
+header .titular .publicar{background:#dd4f24;color:#fff;float:right;font-style:italic;padding:.2em .5em;text-decoration:none;text-shadow:1px 1px 0 #000;}
+header .titular .publicar:before{content:"\e600";display:inline-block;font-family:"iconitos";margin:0 3px 0 0;text-shadow:none}
+header .titular .titulo{font-size:18px;font-weight:normal;margin:0;padding:0}
+header .usuario{position:absolute;right:10px;top:10px;}
+header .usuario .avatar{margin:0 1.1em 0 0;position:relative;z-index:69;}
+header .usuario .avatar img{border-radius:50%;width:50px}
+header .usuario .flechita{background:#dd4f24;color:#fff;display:block;padding:2px;position:absolute;right:0;text-align:right;text-decoration:none;top:15px;width:50%;z-index:0;}
+header .usuario .flechita:after{content:"\e602";display:block;font-family:"iconitos";margin:1px 0 0 1px;text-shadow:1px 1px 0 #000}
